@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+body{
+    /* background: url('./images/4k Desktop Wallpaper.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    /* height: 60vh; */
+}
+
+.move_outer_section{
+    transform: translateY(100px);
+}
+
+.outer_section{
+  
+
+    width: 100%;
+}
+
+.login_box{
+
+  backdrop-filter: blur(15px);
+
+  padding: 20px;
+
+  border: 2px solid white;
+  border-radius: 20px;
+
+  width: 350px;
+
+  text-align: center;
+}
+
+.login_box h2{
+  
+  color: white;
+  margin-bottom: 20px;
+}
+
+.login_box input{
+  width: 90%;
+
+  padding: 15px;
+
+  margin: 20px 0px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  background: transparent;
+  background-color: rgba(0, 0, 0, 0.219);
+
+  color: white;
+
+  letter-spacing: 1px;
+
+}
+
+.login_box input::placeholder{
+
+  color: white;
+}
+
+.contaoner_link h3{
+    color: rgb(255, 255, 255);
+}
+
+.contaoner_link button{
+  
+  letter-spacing: 1px;
+
+  width: 100%;
+
+  padding: 10px;
+    
+  background: #19a9e7;
+
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.contaoner_link button h4{
+    color: rgb(255, 255, 255);
+}
+
+.contaoner_link button:hover{
+  transform: scale(1.1);
+}

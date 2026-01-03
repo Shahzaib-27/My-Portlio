@@ -1,0 +1,704 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background :linear-gradient(135deg, #05070f, #1c2433, #05070f);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+
+
+/* head Section */
+/* head Section */
+/* head Section */
+
+.navdata{
+    margin: 20px 0px 20px 0px ;
+    padding: 10px 20px 30px 60px ;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    font-size: 1.5em;
+    letter-spacing: 1px;
+
+
+    border-bottom: 2px solid rgba(255, 255, 255, 0.445);
+}
+
+.navdata h3{
+    margin-right: 40px;
+    cursor: pointer;
+
+
+    color: white;
+    text-shadow: 3px 3px rgb(0, 0, 0);
+
+    transition:  all 0.2s ease-in-out;
+}
+
+.navdata i {
+    /* margin: 120px 1px 100px 1px ; */
+    /* padding: 10px 30px 30px 30px ; */
+
+    position: relative;
+    left: 18%;
+
+    cursor: pointer;
+
+    font-size: 1.5rem;
+
+    text-shadow: 3px 3px black;
+    transition:  all 0.2s ease-in-out;
+}
+
+.navdata h3:hover ,
+.navdata i:hover{
+    color: rgb(0, 195, 255);
+    text-shadow: 3px 3px rgb(0, 0, 0);
+
+    letter-spacing: 1px;
+    
+    transform: scale(1.2);
+
+}
+
+/* main section */
+/* main section */
+/* main section */
+
+
+.Main_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    margin: 190px 1px 40px 5px;
+    font-size: 1.6rem;
+
+    transition:  all 0.2s ease-in-out;
+}
+
+.Main_section_data h1 {
+    background: linear-gradient(99deg, rgba(216, 205, 205, 0.747), rgb(0, 102, 255));
+    
+    background-clip: text;
+    color: transparent;
+
+    font-size: 4rem;
+
+    transition:  all 0.2s ease-in-out;
+
+}
+
+.Main_section_data h5 , p{
+    color: rgb(219, 206, 206);
+}
+
+.Main_section_data i{ 
+    margin-right: 10px;
+}
+
+.Main_section_data button{
+    padding: 15px;
+    margin: 10px;
+
+    border: 1px solid rgb(0, 110, 255);
+    border-radius: 10px;
+
+    text-shadow: 3px 3px rgb(0, 0, 0);
+    
+    cursor: pointer;
+
+    font-size: 1.2rem;
+
+    background: rgba(0, 0, 0, 0.377);
+    color: rgb(194, 178, 178);
+
+    width: 150px;
+
+    transition:  all 0.2s ease-in-out; 
+}
+
+@keyframes spin{
+     0% {  border: 2px solid rgb(0, 255, 76); }
+     25% { border: 2px solid rgb(0, 255, 200); }
+     50% { border: 2px solid rgb(5, 155, 224); }
+     75% { border: 2px solid rgb(9, 21, 190);}
+     100% {border: 2px solid rgb(93, 9, 190);}
+}
+
+.Main_section_data button:hover{
+    animation: spin 1.4s infinite;
+
+    box-shadow: 0px 0px 20px rgb(104, 98, 98);
+
+    transform: scale(1.1);
+}
+
+
+/* Second Main_section */
+/* Second Main_section */
+/* Second Main_section */
+
+
+.Main_section_data_1{
+
+    margin: 250px 40px 10px 40px;
+    padding: 10px;
+    /* font-size: 1.2rem; */
+
+    transition:  all 0.2s ease-in-out;
+}
+
+
+.Main_section_data_1 h1{
+
+    margin-bottom: 10px;
+    text-align: center;
+
+    background :linear-gradient(100deg, 
+    #000000, #141b27, #050c31);
+
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+.About_me_data  { 
+    display: flex; 
+
+    padding: 10px;
+
+    border-radius: 20px;
+
+    background :linear-gradient(100deg, 
+    #000000, #131925, #141f58);
+}
+
+.About_me_data img{
+    width: 400px;
+
+    border: 2px solid black;
+    border-radius: 200px;
+}
+
+.About_me_data_context h3{
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.About_me_data_context h4{
+
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.About_me_data_context p{
+
+    margin: 0px 10px 20px 20px;
+}
+
+/* skill_Tecnology_section */
+/* skill_Tecnology_section */
+/* skill_Tecnology_section */
+
+
+
+.skill_Tecnology_section_header{
+
+    margin:200px 20px 200px 30px;
+    border-radius: 30px;
+
+    background :linear-gradient(100deg, 
+    #000000, #232d41, #0b0f22);
+}
+
+
+.skill_Tecnology_section{
+
+    height: 400px;
+    padding: 40px;
+
+    border-radius: 30px;
+
+    background :linear-gradient(100deg, 
+    #000000, #141b27, #050c31);
+
+}
+
+
+.skill_Tecnology_section h1 , p{
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.skill_Tecnology_section_data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.skill_Tecnology_section_data h6{
+    
+    cursor: pointer;
+    
+    margin: 40px 40px 40px 40px;
+    
+    font-size: 1.2rem;
+
+    letter-spacing: 1px;
+
+    transition: all 0.3s ease-in-out;
+    width: 100px;
+    
+}
+
+.skill_Tecnology_section_data h6:hover{
+
+    color: rgb(0, 195, 255);
+    text-shadow: 3px 3px rgb(0, 0, 0);
+
+    letter-spacing: 1px;
+    
+    transform: scale(1.4);
+   
+}
+
+/* Experience_section_header */
+/* Experience_section_header */
+/* Experience_section_header */
+/* Experience_section_header */
+
+.Experience_section_header{
+    margin:  100px 0px 100px 0px ;
+    padding: 40px;
+
+    height: 400px;
+
+
+    border-radius: 30px;
+
+    background :linear-gradient(100deg, 
+    #000000, #141b27, #050c31);
+}
+
+
+.Experience_Tecnology_section h1 {
+    text-align: center;
+}
+
+/* .Experience_Tecnology_section p {text-align: center;   }  */
+
+.Experience_Tecnology_data{
+    
+    transform: translateY(190px);
+
+    padding: 30px;
+
+    font-size: 1.3rem;
+
+    border-radius: 30px;
+
+    /* background :linear-gradient(180deg, 
+    #000000, #141b27, #050c31); */
+}
+
+
+/* Projects_section_header  */
+/* Projects_section_header  */
+/* Projects_section_header  */
+
+.Projects_section_header{
+    margin:  100px 0px 100px 0px ;
+    padding: 40px;
+
+    /* height: 450px; */
+
+    border-radius: 30px;
+
+    background :linear-gradient(100deg, 
+    #000000, #141b27, #050c31);
+}
+
+/* .Projects_section_header  */
+
+.Projects_Tecnology_section h1{
+    text-align: center;
+}
+
+
+.Projects_Tecnology_data{
+
+    width: 240px;
+
+    border-radius: 30px;
+
+    padding: 20px;
+    
+    background :linear-gradient(260deg, 
+    #000000, #0a0d13, #061569);
+
+    transition: all 0.3s ease-in-out ;
+
+    cursor: pointer;
+}
+
+.Projects_Tecnology_data:hover{
+    box-shadow: 0px 0px 0px 2px white;
+    transform: scale(1.1);
+}
+
+.Projects_Tecnology_data img{
+    width: 200px;
+
+    /* border: 1px solid white; */
+    border-radius: 10px;
+}
+
+.Projects_Tecnology_data h2{
+    letter-spacing: 1px;
+}
+
+
+/* Get_In_Touch_section_data */
+/* Get_In_Touch_section_data */
+/* Get_In_Touch_section_data */
+/* Get_In_Touch_section_data */
+
+
+.Get_In_Touch_section_header {
+    background: linear-gradient(100deg, #000000, #161d2b, #061569);
+    margin-bottom: 210px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Get_In_Touch_section_headigs {
+    text-align: center;
+}
+
+.Get_In_Touch_section_headigs h1 {
+    padding: 30px;
+}
+
+.Get_In_Touch_section_headigs h1,
+.Get_In_Touch_section_headigs p {
+    
+    /* border: 2px solid white; */
+
+    padding: 25px 90px ;
+}
+
+.Get_In_Touch_section_header{
+    display: flex;
+}
+
+.Get_In_Touch_section_data {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 15px;
+    gap: 90px;
+
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+
+
+.Get_In_Touch_section_data_1 {
+    margin: 0;
+}
+
+.Get_In_Touch_section_data_1 p {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+.Get_In_Touch_section_data_1_icons_center,
+.Get_In_Touch_section_data_2_icons_center {
+    display: flex;
+    align-items: center;
+
+    letter-spacing: 1px;
+
+    margin-bottom: 20px;
+}
+
+.Get_In_Touch_section_data_1_icons i,
+.Get_In_Touch_section_data_2_icons i {
+    margin-right: 10px;
+
+    color: #dacbcb;
+    background: linear-gradient(100deg, #061569);
+    
+    padding: 10px;
+
+    border-radius: 25px;
+}
+
+.icon_item p{
+    margin-left: 45px;
+
+}
+
+
+
+.Get_In_Touch_section_data_2 {
+    border-radius: 20px;
+
+
+    background: linear-gradient(120deg, #000000, #161d2b, #061569);
+    
+    padding: 20px;
+    
+    width: 320px;
+    
+    margin: 0;
+}
+
+
+.Get_In_Touch_section_data_2 input,
+.Get_In_Touch_section_data_2 textarea {
+    width: 100%;
+
+    background: transparent;
+
+    padding: 10px;
+    margin-bottom: 15px;
+
+    border-radius: 10px;
+
+    color: white;
+
+    border: 1px solid white;
+}
+
+.Get_In_Touch_section_data_2 input::placeholder,
+.Get_In_Touch_section_data_2 textarea::placeholder {
+    color: rgb(192, 177, 177);
+}
+
+
+.butoon_Style {
+    text-align: center;
+}
+
+.butoon_Style button {
+    cursor: pointer;
+
+    background-color: #0661e9;
+    color: white;
+
+    padding: 15px 40px;
+
+    border-radius: 20px;
+
+    letter-spacing: 1px;
+
+    border: none;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.butoon_Style button:hover {
+    transform: scale(1.1);
+}
+
+.butoon_Style button i {
+    font-size: 1.2rem;
+
+    margin-right: 10px;
+
+    color: white;
+    background-color: #000000;
+
+    border-radius: 50%;
+
+    padding: 3px;
+}
+
+
+.forms input{
+
+    cursor: pointer;
+
+}
+
+/* Footer_Section */
+/* Footer_Section */
+/* Footer_Section */
+
+
+.Footer_Section{
+
+    letter-spacing: 1px;
+
+    padding: 10px;
+
+    background-color: white;
+    color: black;
+}
+
+.Footer_Section p{
+    color: black;
+    
+}
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+@media (max-width: 480px) {
+
+    .navdata {
+        flex-direction: column;
+        gap: 15px;
+        font-size: 1.2rem;
+    }
+
+    .navdata i {
+        position: static;
+    }
+
+    .Main_section {
+        margin: 100px 10px;
+        font-size: 1.2rem;
+    }
+
+    .Main_section_data h1 {
+        font-size: 2.5rem;
+    }
+
+    .Main_section_data button {
+        width: 100%;
+    }
+
+    .About_me_data {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .About_me_data img {
+        width: 220px;
+        margin-bottom: 20px;
+    }
+
+    .skill_Tecnology_section {
+        height: auto;
+    }
+
+    .skill_Tecnology_section_data {
+        flex-wrap: wrap;
+    }
+
+    .Experience_section_header {
+        height: auto;
+    }
+
+    .Experience_Tecnology_data {
+        transform: none;
+        padding: 20px;
+    }
+
+    .Get_In_Touch_section_data {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .Get_In_Touch_section_data_2 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .Main_section {
+        margin: 120px 20px;
+    }
+
+    .Main_section_data h1 {
+        font-size: 3rem;
+    }
+
+    .About_me_data {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .About_me_data img {
+        width: 280px;
+    }
+
+    .skill_Tecnology_section_data {
+        flex-wrap: wrap;
+    }
+
+    .Get_In_Touch_section_data {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .Get_In_Touch_section_data_2 {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .About_me_data {
+        gap: 30px;
+    }
+
+    .skill_Tecnology_section_data h6 {
+        margin: 20px;
+    }
+
+    .Get_In_Touch_section_data {
+        gap: 60px;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    .Main_section_data h1 {
+        font-size: 5rem;
+    }
+
+    .About_me_data img {
+        width: 450px;
+    }
+
+    .Get_In_Touch_section_data {
+        gap: 120px;
+    }
+}
