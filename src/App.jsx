@@ -4,7 +4,7 @@ import { createBrowserRouter , RouterProvider } from "react-router-dom"
 
 import LoginPage from "./components/LoginPage.jsx"
 import Signupform from "./components/SignPage.jsx"
-import PORTFLIOPORJECT from "./portflio.jsx";
+import PORTFLIOPORJECT from "./components/portflio.jsx";
 
 
 const router = createBrowserRouter([

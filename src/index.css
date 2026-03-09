@@ -1,6 +1,9 @@
+
+@import "tailwindcss";
+
 *{
-    margin: 0px;
-    padding: 0px;
+    /* margin: 0px; */
+    /* padding: 0px; */
     text-decoration: none;
     box-sizing: border-box;
 }
@@ -247,16 +250,16 @@ body{
 
 .skill_Tecnology_section_data{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
 }
 
 
 
-.skill_Tecnology_section_data h6{
+.skill_Tecnology_section_data h1{
     
-    cursor: pointer;
+    /* cursor: pointer; */
     
     margin: 40px 40px 40px 40px;
     
@@ -269,7 +272,7 @@ body{
     
 }
 
-.skill_Tecnology_section_data h6:hover{
+.skill_Tecnology_section_data h1:hover{
 
     color: rgb(0, 195, 255);
     text-shadow: 3px 3px rgb(0, 0, 0);
