@@ -24,9 +24,9 @@ export default function Header() {
         <div className="flex justify-between items-center">
 
           {/* Logo */}
-          <div className='flex justify-between items-center'>
-            <img src="/images/portfolio.png" alt="random_img" className='w-10 mr-2' 
-            onClick={() => navigate("/")}/>
+          <div className='flex justify-between items-center cursor-pointer'
+          onClick={() => navigate("/")}>
+            <img src="/images/portfolio.png" alt="random_img" className='w-10 mr-2' />
             <h1 className="text-white text-xl font-bold">PortFlio</h1>
           </div>
 
