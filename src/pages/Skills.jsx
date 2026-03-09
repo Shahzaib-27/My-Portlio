@@ -13,7 +13,7 @@ const Names = [
 export default function Skills() {
 
   return (
-    <div className="bg-[linear-gradient(100deg,#000000,#131925,#141f58)] m-5 p-6 rounded-lg mt-32 mb-32">
+    <div className="bg-[linear-gradient(100deg,#000000,#131925,#141f58)]  p-6 rounded-lg mt-32 mb-32">
 
       <div className="text-gray-300 text-center">
         <h1 className="font-medium text-4xl mt-4 mb-4">

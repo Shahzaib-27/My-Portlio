@@ -8,7 +8,7 @@ const openProjects = () => {
 
 return (
 
-<div className="bg-[linear-gradient(100deg,#000000,#131925,#141f58)] p-6 m-4 mt-10 mb-10 rounded-lg mt-20 mb-50">
+<div className="bg-[linear-gradient(100deg,#000000,#131925,#141f58)] p-6  mt-10 mb-10 rounded-lg mt-20 mb-50">
   <div className="text-center">
     
     <h1 className="text-4xl font-bold mb-4">

@@ -14,7 +14,7 @@ export default function Footer() {
 
    const socialLinks = [
     { name: "Instagram", href: "https://www.instagram.com/shahzaibs_10/" },
-    // { name: "YouTube", href: "#" },
+    { name: "Linkedin", href: "https://www.linkedin.com/in/shahzaib-shahid-a010163a1/" },
     // { name: "Discord", href: "#" },
     // { name: "Twitter", href: "#" },
   ];
@@ -30,15 +30,12 @@ export default function Footer() {
           <img src="/images/portfolio.png" alt="random_img" className='w-10 h-10 mr-2' />
           <h1 className="text-2xl font-bold text-white">PortFlio</h1>
           </span>
-
-           <p className="mt-2 text-gray-400">
-            @ {new Date().getFullYear()} Shahzaib Shahid. All rights reserved.</p>
         </div>
 
 
         {/* Quick Links */}
         <div>
-          <h2 className="font-semibold text-lg mb-4 text-white">Quick Links:</h2>
+          <h2 className="font-semibold text-2xl mb-4 text-white">Quick Links:</h2>
           <ul className="space-y-2">
             {navLinks.map((item, index) => (
               <li key={index}>
@@ -56,7 +53,7 @@ export default function Footer() {
 
         {/* Follow Us */}
         <div>
-          <h2 className="font-semibold text-lg mb-4 text-white">Follow Me:</h2>
+          <h2 className="font-semibold text-2xl  mb-4 text-white">Follow Me:</h2>
             <ul className="space-y-2">
               {socialLinks.map((link, index) => (
                 <li key={index}>

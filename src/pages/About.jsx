@@ -22,7 +22,7 @@ return (
       <div key={index} className="flex flex-col items-center mt-20 px-6 mb-22">
 
           {/* Title Section */}
-          <div className="bg-[linear-gradient(100deg,#000000,#131925,#141f58)] w-full flex justify-center p-3 rounded-lg mb-2">
+          <div className="bg-[linear-gradient(100deg,#000000,#131925,#141f58)] w-full flex justify-center p-3 rounded-lg  mb-2">
             {/* linear-gradient(100deg,  #000000, #131925, #141f58) */}
             <h1 className="font-bold text-3xl text-white">
             {item.title}
