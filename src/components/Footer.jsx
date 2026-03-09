@@ -39,11 +39,13 @@ export default function Footer() {
           <ul className="space-y-2">
             {navLinks.map((item, index) => (
               <li key={index}>
+
                 <Link
                   to={item.path}
                   className="hover:text-blue-400 transition-All duration-200 ease-in-out"
                   onClick = { () => scrollTo({ top:0, behavior:"smooth" })}
                 >
+                  
                   {item.title}
                 </Link>
               </li>
