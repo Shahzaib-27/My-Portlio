@@ -56,7 +56,7 @@ export default function Footer() {
 
         {/* Follow Us */}
         <div>
-          <h2 className="font-semibold text-lg mb-4 text-white">Follow Us:</h2>
+          <h2 className="font-semibold text-lg mb-4 text-white">Follow Me:</h2>
             <ul className="space-y-2">
               {socialLinks.map((link, index) => (
                 <li key={index}>
