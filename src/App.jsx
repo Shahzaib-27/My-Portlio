@@ -8,16 +8,16 @@ import PORTFLIOPORJECT from "./components/portflio.jsx";
 
 
 const router = createBrowserRouter([
+  // {
+  //   path:'/',
+  //   element: <Signupform/>
+  // },
+  // { 
+  //   path:'/loginpage',
+  //   element:<LoginPage/>,
+  // },
   {
-    path:'/',
-    element: <Signupform/>
-  },
-  { 
-    path:'/loginpage',
-    element:<LoginPage/>,
-  },
-  {
-    path:"/Portflio",
+    path:"/",
     element:<PORTFLIOPORJECT/>
   }
 ])
