@@ -1,35 +1,32 @@
-A personal portfolio website built with React to showcase my projects, skills, and experience. This project demonstrates responsive design, modern UI, and interactive components.
+# My Portfolio
 
-🌟 Features
+A personal portfolio website built with React to showcase my projects, skills, and experience.  
+This project demonstrates responsive design, modern UI, and interactive components.
 
-Responsive Design: Works on mobile, tablet, and desktop screens.
+## 🌟 Features
 
-Projects Section: Showcase your projects with live links.
+- Responsive Design: Works on mobile, tablet, and desktop screens.  
+- Projects Section: Showcase your projects with live links.  
+- Skills Section: Display your technical skills visually.  
+- Experience Section: Highlight your work history or freelance experience.  
+- Contact Form: Connect with me directly through the website.  
 
-Skills Section: Display your technical skills visually.
+## 💻 Technologies Used
 
-Experience Section: Highlight your work history or freelance experience.
+- Frontend: React, Tailwind CSS, Routes, JavaScript.  
+- Icons: Lucide React  
+- Hosting: Vercel  
 
-Contact Form: Connect with me directly through the website.
+## 📂 Project Structure
 
-💻 Technologies Used
-
-Frontend: React, Tailwind CSS,  Routes , JavaScript.
-
-Icons: Lucide React 
-
-Hosting: Vercel 
-
-📂 Project Structure
-your-portfolio/
-├─ public/
-├─ src/
-│  ├─ components/     # Reusable UI components
-│  ├─ pages/          # Different pages like Home, About, Projects
-│  ├─ assets/         # Images, icons, logos
-│  ├─ App.js
-│  ├─ index.js
-│  └─ styles.css
-├─ package.json
-└─ README.md
-
+your-portfolio/  
+├─ public/  
+├─ src/  
+│  ├─ components/     # Reusable UI components  
+│  ├─ pages/          # Different pages like Home, About, Projects  
+│  ├─ assets/         # Images, icons, logos  
+│  ├─ App.js  
+│  ├─ index.js  
+│  └─ styles.css  
+├─ package.json  
+└─ README.md  
