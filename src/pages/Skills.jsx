@@ -11,22 +11,25 @@ const Names = [
 ]
 
 export default function Skills() {
-
   return (
-    <div className="bg-[linear-gradient(100deg,#000000,#131925,#141f58)]  p-6 rounded-lg mt-32 mb-32">
+    <div className="bg-[linear-gradient(100deg,#000000,#131925,#141f58)] p-8 md:p-16 rounded-2xl mt-32 mb-32 shadow-lg">
+      <div className="text-center text-gray-300 max-w-5xl mx-auto">
 
-      <div className="text-gray-300 text-center">
-        <h1 className="font-medium text-4xl mt-4 mb-4">
+        <h1 className="font-bold text-4xl md:text-5xl mb-4 bg-[linear-gradient(90deg,#00f,#0ff)] bg-clip-text text-transparent">
           Skills & Technology
         </h1>
-        <p className="text-gray-400">
+
+        <p className="text-gray-400 text-lg md:text-xl mb-12">
           Here are the technologies and tools I work with to bring ideas to life
         </p>
 
-        <div className="mt-12 flex flex-wrap justify-center gap-8">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 justify-items-center">
           {Names.map((item,index)=>(
-            <div key={index}>
-              <h1 className="text-2xl cursor-pointer transition-all duration-300 hover:scale-110 hover:text-blue-500">
+            <div
+              key={index}
+              className="bg-[#1c2433] hover:bg-blue-600 text-white p-4 rounded-xl shadow-md  transition-all duration-300 ease-in-out transform hover:scale-110"
+            >
+              <h1 className="text-2xl font-semibold text-center">
                 {item.title}
               </h1>
             </div>

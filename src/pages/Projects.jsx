@@ -2,40 +2,50 @@ import React from 'react'
 
 export default function Projects() {
 
-const openProjects = () => {
-  window.open("https://vercel.com/shahzaibs-projects-16eb6656", "_blank")
-}
+  const openProjects = () => {
+    window.open("https://vercel.com/shahzaibs-projects-16eb6656", "_blank")
+  }
 
-return (
+  return (
+    <div className="bg-gradient-to-r from-[#000000] via-[#131925] to-[#141f58] p-8 md:p-16 rounded-2xl mt-32 mb-32">
+      <div className="text-center max-w-5xl mx-auto">
 
-<div className="bg-[linear-gradient(100deg,#000000,#131925,#141f58)] p-6  mt-10 mb-10 rounded-lg mt-20 mb-50">
-  <div className="text-center">
-    
-    <h1 className="text-4xl font-bold mb-4">
-    Featured Projects
-    </h1>
-    <p className="text-gray-300 max-w-2xl mx-auto">
-    Here are some of the projects I've worked on that showcase my skills and experience.
-    </p>
+        {/* Section Header */}
+        <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+          Featured Projects
+        </h1>
 
-    <div
-    className="mt-10 bg-[linear-gradient(260deg,#000000,#131925,#141f58)] max-w-md mx-auto rounded-lg p-8 cursor-pointer hover:scale-105 transition duration-300 "
-    onClick={openProjects}
-    >
-        <div className="flex flex-col items-center gap-4">
-          <img
-          src="/images/vercel.jpg"
-          alt="Vercel"
-          className="w-40 rounded-lg"
-          />
+        <p className="text-gray-300 text-lg md:text-xl mb-12">
+          Here are some of the projects I've worked on that showcase my skills and experience.
+        </p>
 
-          <p className="text-lg text-gray-200">
-          Vercel link to see all my Projects:
-          </p>
+        {/* Project Card */}
+        <div
+          className="bg-[#1c2433] p-6 md:p-10 rounded-2xl shadow-xl cursor-pointer hover:scale-[1.03] transition-transform duration-300 max-w-md mx-auto"
+          onClick={openProjects}
+        >
+          <div className="flex flex-col items-center gap-6">
+
+            {/* Project Image */}
+            <img
+              src="/images/vercel.jpg"
+              alt="Vercel Projects"
+              className="w-full h-48 md:h-60 object-cover rounded-xl shadow-lg"
+            />
+
+            {/* Project Info */}
+            <p className="text-gray-200 text-center text-lg md:text-xl leading-relaxed">
+              Click below to explore all my projects on Vercel.
+            </p>
+
+            <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-all duration-300">
+              View Projects
+            </button>
+
+          </div>
         </div>
-    </div>
-  </div>
-</div>
 
-)
+      </div>
+    </div>
+  )
 }

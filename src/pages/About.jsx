@@ -8,10 +8,20 @@ const Names = [
     name: "Shahzaib Shahid",
     role: "Front-End Developer",
     img: "/images/profile.jpg",
-    desc: `I'm a passionate front-end developer with hands-on experience in building responsive and interactive web applications.
-    I specialize in modern front-end technologies including HTML, CSS, JavaScript, React and Next.js.
-    I enjoy leveraging tools like Sass, Tailwind and Framer Motion to build beautiful UI.
-    I'm always eager to learn new frameworks and explore modern web technologies.`
+    desc: `I am a Front-End Web Developer who builds modern, responsive, and user-friendly websites. I specialize in creating clean and visually appealing user interfaces using HTML, CSS, JavaScript, TypeScript, React, and Tailwind CSS.
+
+    I focus on writing clean, maintainable code and designing interfaces that work seamlessly on all devices, including mobile, tablet, and desktop. My goal is to help clients turn their ideas into fast, functional, and attractive web experiences.
+
+    My core skills include:
+      • Responsive Web Design.
+      • Front-End Development with React.
+      • JavaScript and React Applications.
+      • UI Styling with Tailwind CSS.
+      • Clean, Organized, and Maintainable Code.
+
+    I am constantly learning new technologies and improving my development skills to deliver high-quality work. I am committed to clear communication, meeting deadlines, and providing solutions that align with client requirements.
+
+    Whether you need a responsive website, a modern frontend interface, or help enhancing your web UI, I am ready to help bring your project to life.`
 }
 ]
 
@@ -35,7 +45,7 @@ return (
             <img
             src={item.img}
             alt="profile"
-            className="w-80 h-80 object-cover rounded-full shadow-lg"
+            className="w-80 h-80 object-cover rounded-[30px] shadow-lg"
             />
 
             <div className="text-center md:text-left">
@@ -48,7 +58,7 @@ return (
               {item.role}
               </h4>
 
-              <p className="text-gray-300 leading-relaxed mb-4">
+              <p className="text-gray-300 leading-relaxed mb-4 whitespace-pre-line">
               {item.desc}
               </p>
 
