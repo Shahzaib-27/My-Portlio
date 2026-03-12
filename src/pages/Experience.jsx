@@ -5,7 +5,7 @@ export default function Experience() {
   const experiences = [
     {
       title: "React Frontend Developer | Self-Employed",
-      period: `May 2024 - ${new Date().getFullYear()}`,
+      period: `May 2025 - ${new Date().getFullYear()}`,
       desc: `
         • Built responsive websites using React, Tailwind CSS, and JavaScript.
         • Developed modern UI components using React.
