@@ -15,7 +15,7 @@ export default function Skills() {
     <div className="bg-[linear-gradient(100deg,#000000,#131925,#141f58)] p-8 md:p-16 rounded-2xl mt-32 mb-32 shadow-lg">
       <div className="text-center text-gray-300 max-w-5xl mx-auto">
 
-        <h1 className="font-bold text-4xl md:text-5xl mb-4 bg-[linear-gradient(90deg,#00f,#0ff)] bg-clip-text text-transparent">
+        <h1 className="font-bold text-4xl md:text-5xl mb-4 bg-[linear-gradient(99deg,rgba(216,205,205,0.747),rgb(0,102,255))] bg-clip-text text-transparent">
           Skills & Technology
         </h1>
 

@@ -21,7 +21,7 @@ export default function Experience() {
       <div className="max-w-6xl mx-auto">
 
         {/* Experience Header */}
-        <h1 className="text-center text-3xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+        <h1 className="text-center text-3xl md:text-5xl font-bold mb-4 bg-[linear-gradient(99deg,rgba(216,205,205,0.747),rgb(0,102,255))] bg-clip-text text-transparent">
           Experience
         </h1>
         <p className="text-center text-gray-400 text-lg md:text-xl mb-12">

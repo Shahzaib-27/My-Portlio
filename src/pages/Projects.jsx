@@ -11,7 +11,7 @@ export default function Projects() {
       <div className="text-center max-w-5xl mx-auto">
 
         {/* Section Header */}
-        <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+        <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-[linear-gradient(99deg,rgba(216,205,205,0.747),rgb(0,102,255))] bg-clip-text text-transparent">
           Featured Projects
         </h1>
 

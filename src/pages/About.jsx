@@ -50,7 +50,7 @@ return (
 
             <div className="text-center md:text-left">
 
-              <h3 className="font-bold text-4xl mb-2 text-center">
+              <h3 className="font-bold text-4xl mb-2 text-center bg-[linear-gradient(99deg,rgba(216,205,205,0.747),rgb(0,102,255))] bg-clip-text text-transparent">
               {item.name}
               </h3>
 

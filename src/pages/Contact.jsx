@@ -53,7 +53,7 @@ return (
     {/* Heading */}
     <div className="text-center mb-16">
 
-    <h1 className="text-3xl font-bold text-white mb-4">
+    <h1 className="text-3xl font-bold  mb-4 bg-[linear-gradient(99deg,rgba(216,205,205,0.747),rgb(0,102,255))] bg-clip-text text-transparent">
     Get In Touch
     </h1>
 
@@ -94,7 +94,7 @@ return (
             <a
             href={item.link}
             target="_blank"
-            // rel="noopener noreferrer"
+
             className="text-gray-400 hover:text-blue-400 transition"
             >
             {item.value}
