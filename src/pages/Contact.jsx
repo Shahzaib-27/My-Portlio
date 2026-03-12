@@ -26,7 +26,7 @@ const contactInfo = [
   icon: <MapPin size={20} />,
   title: "Location",
   value: "Pakistan",
-  link: "https://www.google.com/maps/place/LSH/@31.4083699,74.1637706,82m/data=!3m1!1e3!4m10!1m2!2m1!1sLSH,+436+D,+PGSHS,+Block+D+Pgshs+1,+Lahore!3m6!1s0x3918ffc3d9ab2239:0x301aed2f5a157a61!8m2!3d31.4083698!4d74.1643339!15sCipMU0gsIDQzNiBELCBQR1NIUywgQmxvY2sgRCBQZ3NocyAxLCBMYWhvcmVaKCImbHNoIDQzNiBkIHBnc2hzIGJsb2NrIGQgcGdzaHMgMSBsYWhvcmWSAQpyZXN0YXVyYW504AEA!16s%2Fg%2F11h874y9b4?entry=ttu&g_ep=EgoyMDI2MDMwOS4wIKXMDSoASAFQAw%3D%3D"
+  // link: "https://www.google.com/maps/place/LSH/@31.4083699,74.1637706,82m/data=!3m1!1e3!4m10!1m2!2m1!1sLSH,+436+D,+PGSHS,+Block+D+Pgshs+1,+Lahore!3m6!1s0x3918ffc3d9ab2239:0x301aed2f5a157a61!8m2!3d31.4083698!4d74.1643339!15sCipMU0gsIDQzNiBELCBQR1NIUywgQmxvY2sgRCBQZ3NocyAxLCBMYWhvcmVaKCImbHNoIDQzNiBkIHBnc2hzIGJsb2NrIGQgcGdzaHMgMSBsYWhvcmWSAQpyZXN0YXVyYW504AEA!16s%2Fg%2F11h874y9b4?entry=ttu&g_ep=EgoyMDI2MDMwOS4wIKXMDSoASAFQAw%3D%3D"
   }
   ];
 
