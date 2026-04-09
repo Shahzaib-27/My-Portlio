@@ -14,7 +14,7 @@ export default function Footer() {
 
    const socialLinks = [
     { name: "Instagram", href: "https://www.instagram.com/shahzaibs_10/" },
-    { name: "Linkedin", href: "https://www.linkedin.com/in/shahzaib-shahid-a010163a1/" },
+    { name: "Linkedin", href: "https://www.linkedin.com/in/shahzaib-shahid-924172402/" },
     { name: "Upwork", href: "https://www.upwork.com/freelancers/~01e277f18df9851dbb?mp_source=share" },
     { name: "Github", href: "https://github.com/Shahzaib-27" },
   ];
