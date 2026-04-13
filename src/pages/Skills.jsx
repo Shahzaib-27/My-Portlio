@@ -4,7 +4,6 @@ const Names = [
   { title:"HTML" },
   { title:"CSS" },
   { title:"JavaScript" },
-  { title:"TypeScript" },
   { title:"React" },
   { title:"GitHub" },
   { title:"Tailwind" },
