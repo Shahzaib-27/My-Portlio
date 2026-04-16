@@ -8,7 +8,7 @@ const Names = [
     name: "Shahzaib Shahid",
     role: "Front-End Developer",
     img: "/images/profile.jpg",
-    desc: `I am a Front-End Web Developer who builds modern, responsive, and user-friendly websites. I specialize in creating clean and visually appealing user interfaces using HTML, CSS, JavaScript, TypeScript, React, and Tailwind CSS.
+    desc: `I am a Front-End Web Developer who builds modern, responsive, and user-friendly websites. I specialize in creating clean and visually appealing user interfaces using HTML, CSS, JavaScript, React, and Tailwind CSS.
 
     I focus on writing clean, maintainable code and designing interfaces that work seamlessly on all devices, including mobile, tablet, and desktop. My goal is to help clients turn their ideas into fast, functional, and attractive web experiences.
 
@@ -61,10 +61,32 @@ return (
               <p className="text-gray-300 leading-relaxed mb-4 whitespace-pre-line">
               {item.desc}
               </p>
+              
 
             </div>
 
           </div>
+              <div className="flex gap-4 mt-4">
+  
+              {/* View CV */}
+              <a 
+                href="/ShahzaibShahid.pdf" 
+                target="_blank"
+                className="bg-[linear-gradient(130deg,#000000,#131925,#141f58)] text-white p-4 rounded-lg transition-all duration-200 ease-in-out leading-relaxed hover:scale-110"
+              >
+                View CV
+              </a>
+
+              {/* Download CV */}
+              <a 
+                href="/ShahzaibShahid.pdf" 
+                download
+                className="bg-[linear-gradient(100deg,#000000,#131925,#141f58)] text-white p-4 rounded-lg transition-all duration-200 ease-in-out leading-relaxed hover:scale-110"
+              >
+                Download CV
+              </a>
+
+</div>
       </div>
       ))}
   </div>
